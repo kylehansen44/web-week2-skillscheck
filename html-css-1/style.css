@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: gray;
+    height: 9vh;
+    width: 100vw;
+}
+
+.company {
+    height: 40%;
+    width: 20%;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 40px;
+    width: 160px;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    padding-top: 10px;
+    
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background: transparent;
+    border: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.title{
+    width: 100vw;
+    height: 35vh;
+    background-color: black;
+    color: yellow;
+    font-size: 9vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxes {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1 {
+    background-color: turquoise;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.box2 {
+    background-color: turquoise;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.box3 {
+    background-color: turquoise;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.rectangles {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.rectangle1 {
+    background-color: orange;
+    height: 200px;
+    width: 400px;
+    display: inline-block
+}
+
+.rectangle2 {
+    background-color: orange;
+    height: 200px;
+    width: 400px;
+    display: inline-block
+}
+.bottom {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.text {
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+}
+
+.img {
+    height: 200px;
+    width: 400px;
+    display: inline-block
+}
